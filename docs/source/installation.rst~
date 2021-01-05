@@ -15,7 +15,7 @@ Sign in with you Account and Password
 
 An account can be created at www.flexcompute.com
 
-.. code-block:: python
+.. coded-block:: python
 
         python3
         >>> import flow360client

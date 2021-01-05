@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Flow360 Documentation'
+project = 'Flow360'
 copyright = '2021, Flexcompute Inc.'
 author = 'Flexcompute Inc.'
 
@@ -29,7 +29,7 @@ author = 'Flexcompute Inc.'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx_rtd_theme',
-              'sphinx.ext.autodoc'
+        'sphinx.ext.autodoc'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
