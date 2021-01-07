@@ -1,0 +1,11 @@
+Options,Default,Description
+outputFormat,paraview,"""paraview"" or ""tecplot"""
+animationFrequency,-1,Frequency at which surface output is saved. -1 is at end of simulation
+primitiveVars,false,"rho, u, v, w, p"
+Cp,false,Coefficient of pressure
+Cf,false,Skin friction coefficient
+CfVec,false,Viscous stress coefficient vector
+yPlus,false,y+
+wallDistance,false,Wall Distance
+Mach,false,Mach number
+residualSA,false,Spalart-Allmaras residual magnitude

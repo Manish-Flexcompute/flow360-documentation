@@ -1,0 +1,4 @@
+Options,Default,Description
+refArea,1.0,The reference area of the geometry
+momentCenter,"[0.0, 0.0, 0.0]","The x, y, z moment center of the geometry in grid units"
+momentLength,"[1.0, 1.0, 1.0]","The x, y, z moment reference lengths"

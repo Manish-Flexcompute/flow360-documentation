@@ -1,0 +1,17 @@
+Options,Default,Description
+outputFormat,paraview,"""paraview"" or ""tecplot"""
+animationFrequency,-1,Frequency at which volume output is saved. -1 is at end of simulation
+startAverageIntegrationStep,0,Sub-iteration or time-step to start averaging forces/moments
+computeTimeAverages,false,Whether or not to compute time-averaged quantities
+primitiveVars,true,"Outputs rho, u, v, w, p"
+vorticity,false,Vorticity
+residualNavierStokes,false,5 components of the N-S residual
+residualTurbulence,false,nuHat
+T,false,Temperature
+s,false,Entropy
+Cp,true,Coefficient of pressure
+mut,true,Turbulent viscosity
+nuHat,true,mut/mu_inf
+mutRatio,false,mut/mu_inf
+Mach,10000,Mach number
+gradW,false,Gradient of W

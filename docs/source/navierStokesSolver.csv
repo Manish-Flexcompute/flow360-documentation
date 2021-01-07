@@ -1,0 +1,12 @@
+Options,Default,Description
+tolerance,1.00E-10,"Tolerance for the NS residual, below which the solver exits"
+CFL: initial,10,"Exponential CFL ramping, from initial to final, over _rampSteps_ steps"
+CFL: final,200,
+CFL: rampSteps,200,
+linearIterations,25,Number of linear solver iterations
+kappaMUSCL,-1,"Kappa for the MUSCL scheme, range from [-1, 1], with 1 being unstable."
+maxDt,1.00E+100,Maximum time step
+startEnforcingMaxDtStep,-1,Time step at which to start enforcing maxDtStep. Default of -1 does not enforce a max time step.
+updateJacobianFrequency,4,Frequency at which the jacobian is updated.
+equationEvalFrequency,1,Frequency at which to update the NS equation in loosely-coupled simulations
+viscousWaveSpeedScale,0,"Scales the wave speed acording to a viscous flux. 0.0 is no speed correction, with larger values providing a larger viscous wave speed correction."
