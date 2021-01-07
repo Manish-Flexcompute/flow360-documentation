@@ -71,5 +71,5 @@ To delete a case:
 
    >>> flow360client.case.DeleteCase('')
 
-*Caution*: You won't be able to recover your deleted case or mesh files including its results after your deletion.
+*Caution*: You won't be able to recover your deleted cases or mesh files including its results after your deletion.
 

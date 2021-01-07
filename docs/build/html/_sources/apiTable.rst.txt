@@ -23,7 +23,7 @@ freestream
 
 .. csv-table::
    :file: freestream.csv
-   :widths: 25, 25, 50
+   :widths: 25 25 50
    :header-rows: 1
 
 

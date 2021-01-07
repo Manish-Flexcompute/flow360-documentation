@@ -1,0 +1,16 @@
+.. currentmodule:: flow360client
+
+*************
+API Reference
+*************
+
+Flow360 API
+===========
+
+geometry
+--------
+
+.. csv-table:: 
+   :file: apiTable.csv
+   :widths: 25 25 50
+   :header-rows: 1
