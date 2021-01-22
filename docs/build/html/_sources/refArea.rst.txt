@@ -1,4 +1,0 @@
-
-
-.. autoclass:: geometry
-
