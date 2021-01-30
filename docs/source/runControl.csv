@@ -1,5 +1,0 @@
-Options,Default,Description
-firstOrderIterations,-1,Number of iterations to perform before turning on second order accuracy
-startControl,-1,Time step at which to start targetCL control. -1 is no trim control.
-targetCL,-1,The desired trim CL to achieve
-maxSteps,10000,The maximum number of time steps or iterations to take

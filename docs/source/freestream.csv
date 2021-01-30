@@ -1,6 +1,0 @@
-Options,Default,Description
-Reynolds,REQUIRED,"Nondimensional Reynolds number. Reynolds number should be computed based on the reference length in grid units. For example, if you have a mesh with a MAC of 100 in grid units and want to simulate a physical Reynolds number of 1M, then the you should set Reynolds = 100,000."
-Mach,REQUIRED,"The Mach number, the ratio of freestream speed to the speed of sound."
-Temperature,REQUIRED,The reference temperature in Kelvin.
-alphaAngle,REQUIRED,The angle of attack in degrees
-betaAngle,REQUIRED,The side slip angle in degrees
